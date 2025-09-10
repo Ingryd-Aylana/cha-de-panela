@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.btn-nav {
+  margin: 24px 8px 0 8px;
+  padding: 12px 26px;
+  border: none;
+  border-radius: 14px;
+  background: #a45722;
+  color: #fff;
+  font-size: 1.1rem;
+  font-family: inherit;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: 0 2px 10px #e9d8c8b8;
+  transition: background 0.2s, transform 0.13s;
+  outline: none;
+}
+
+.btn-nav:hover {
+  background: #81370b;
+  transform: scale(1.06);
+}
+

@@ -1,0 +1,104 @@
+.modal-confirm-bg {
+  position: fixed;
+  z-index: 5000;
+  left: 0; top: 0; right: 0; bottom: 0;
+  background: #0006;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-confirm-card {
+  background: #fff;
+  border-radius: 22px;
+  max-width: 390px;
+  width: 94vw;
+  box-shadow: 0 7px 32px #d5b69b99;
+  padding: 36px 20px 28px 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-confirm-card h3 {
+  margin: 0 0 18px 0;
+  color: #a45722;
+  text-align: center;
+  font-size: 1.45rem;
+  font-weight: bold;
+}
+
+.modal-confirm-card form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-confirm-card input {
+  width: 98%;
+  margin-bottom: 12px;
+  padding: 12px 10px;
+  border-radius: 10px;
+  border: 1.3px solid #d1b899;
+  background: #f8f3ed;
+  font-size: 1.08rem;
+  outline: none;
+  box-sizing: border-box;
+  transition: border 0.17s;
+}
+
+.modal-confirm-card input:focus {
+  border: 1.6px solid #a45722;
+  background: #fffdfa;
+}
+
+.btn-confirm {
+  width: 100%;
+  padding: 12px 0;
+  background: #a45722;
+  color: #fff;
+  border: none;
+  border-radius: 11px;
+  font-weight: bold;
+  font-size: 1.09rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 4px;
+  letter-spacing: 0.5px;
+  box-shadow: 0 1px 7px #e4cdb899;
+}
+
+.btn-confirm:hover {
+  background: #7b3d14;
+}
+
+.close-btn {
+  position: absolute;
+  right: 17px; top: 14px;
+  font-size: 1.55rem;
+  background: none;
+  border: none;
+  color: #a45722;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0;
+  line-height: 1;
+}
+
+/* ... seus estilos existentes para o modal ... */
+
+.success-message {
+  text-align: center;
+  padding: 20px;
+}
+
+.success-message h3 {
+  color: #4CAF50; /* Cor verde para sucesso */
+  margin-bottom: 10px;
+}
+
+.success-message p {
+  color: #555;
+}

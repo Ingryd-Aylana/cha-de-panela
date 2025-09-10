@@ -1,0 +1,134 @@
+
+.modal-reserva-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-reserva-card {
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 450px;
+  text-align: center;
+  position: relative;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #888;
+  transition: color 0.2s;
+}
+
+.close-btn:hover {
+  color: #333;
+}
+
+.success-message {
+  padding: 20px;
+}
+
+.success-message h3 {
+  color: #4caf50; 
+  margin-bottom: 10px;
+}
+
+.success-message p {
+  font-size: 16px;
+}
+
+.modal-reserva-card h3 {
+  margin-top: 0;
+}
+
+.modal-reserva-card label {
+  display: block;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.modal-reserva-card input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.modal-actions button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  flex: 1;
+}
+
+.modal-actions button:first-child {
+  background-color: #a45722;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.modal-actions button:first-child:hover {
+  background-color: #b68444;
+}
+
+.modal-actions button.cancelar {
+  background-color: #ddd;
+  color: #555;
+  transition: background-color 0.3s;
+}
+
+.modal-actions button.cancelar:hover {
+  background-color: #ccc;
+}
+
+.cor-texto {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.modal-reserva-bg.cozinha .modal-reserva-card {
+  background-color: #fff; 
+  color: black; 
+}
+
+.modal-reserva-bg.quarto .modal-reserva-card {
+  background-color: #fff;
+  color: black;
+}
+
+.modal-reserva-bg.banheiro .modal-reserva-card {
+  background-color: #fff; 
+  color: black; 
+}
+
+.modal-reserva-bg.sala .modal-reserva-card {
+  background-color: #fff; 
+  color: black;
+}

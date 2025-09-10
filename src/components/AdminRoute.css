@@ -1,0 +1,51 @@
+.admin-area-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  background: #f6e8dc;
+  border-radius: 22px;
+  box-shadow: 0 3px 28px #e3c7b2ad;
+  max-width: 370px;
+  margin: 48px auto;
+  padding: 36px 20px 28px 20px;
+}
+
+.admin-area-container h2 {
+  color: #a45722;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.admin-area-container input[type="password"] {
+  margin: 16px 0 10px 0;
+  padding: 10px 15px;
+  font-size: 1.12rem;
+  border-radius: 10px;
+  border: 1px solid #c0a279;
+  background: #fcf7f1;
+  color: #664217;
+  width: 90%;
+  outline: none;
+}
+
+.admin-area-container button {
+  background: #a45722;
+  color: #fff;
+  padding: 9px 28px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.11rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background 0.2s, transform 0.12s;
+  box-shadow: 0 2px 7px #ebdabf77;
+}
+
+.admin-area-container button:hover {
+  background: #7b3d14;
+  transform: scale(1.04);
+}
