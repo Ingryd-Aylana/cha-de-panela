@@ -243,6 +243,12 @@ function GiftList({ onBack }) {
                     </div>
                 </div>
             )}
+         <div className="footer">
+  <p>
+    Desenvolvido com ❤️ por  
+    <a href="https://www.instagram.com/ingrydai_/#" target="_blank" rel="noopener noreferrer"> Ingryd Aylana</a>
+  </p>
+</div>
         </div>
     );
 }

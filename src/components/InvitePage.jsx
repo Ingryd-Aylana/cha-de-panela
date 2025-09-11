@@ -53,6 +53,12 @@ function InvitePage({ onSeeGifts }) {
             Confirmar presença
           </button>
         </div>
+        <div className="footer">
+          <p>
+            Desenvolvido com ❤️ por
+            <a href="https://www.instagram.com/ingrydai_/#" target="_blank" rel="noopener noreferrer"> Ingryd Aylana</a>
+          </p>
+        </div>
       </div>
       <ConfirmModal open={showModal} onClose={() => setShowModal(false)} />
     </div>
