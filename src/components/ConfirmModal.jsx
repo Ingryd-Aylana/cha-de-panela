@@ -5,7 +5,7 @@ import "./ConfirmModal.css";
 
 export default function ConfirmModal({ open, onClose }) {
   const [nome, setNome] = useState("");
-  const [acompanhante, setAcompanhante] = useState("");
+
   const [confirmado, setConfirmado] = useState(false); // Novo estado
 
   if (!open) return null;
@@ -18,7 +18,7 @@ export default function ConfirmModal({ open, onClose }) {
     const docId = Date.now().toString() + Math.random().toString(36).slice(2, 8);
     await setDoc(doc(db, "confirmacoes", docId), {
       nome: nome.trim(),
-      acompanhante: acompanhante.trim(),
+      
       criadoEm: new Date().toISOString()
     });
     
@@ -28,7 +28,7 @@ export default function ConfirmModal({ open, onClose }) {
     // Limpa os campos depois de um tempo e fecha o modal
     setTimeout(() => {
       setNome("");
-      setAcompanhante("");
+      
       setConfirmado(false);
       onClose();
     }, 2000); // Fecha após 2 segundos
@@ -56,12 +56,7 @@ export default function ConfirmModal({ open, onClose }) {
                 required
                 autoFocus
               />
-              <input
-                type="text"
-                placeholder="Nome do acompanhante (opcional)"
-                value={acompanhante}
-                onChange={e => setAcompanhante(e.target.value)}
-              />
+            
               <button type="submit" className="btn-confirm">Confirmar</button>
             </form>
           </>
