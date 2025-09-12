@@ -32,3 +32,8 @@ Este projeto foi construído como um Single-Page Application (SPA). Para testar 
     `npm start`
 
 Para implantar a versão de produção, utilize o comando `npm run build` e siga as instruções da sua plataforma de hospedagem (Vercel ou Firebase).
+
+
+## 🧑‍💻 Desenvolvido por:
+
+Ingrid Aylana | Desenvolvedora Full-Stack | Linkedin: www.linkedin.com/in/ingryd-aylana-silva-dos-santos-4a2701158 | Instagram: https://www.instagram.com/ingrydai_/#
