@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Convite de Chá de Panela Digital
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é um convite de chá de panela digital interativo, projetado para facilitar a organização do evento. Ele oferece aos convidados a possibilidade de confirmar presença e reservar presentes de forma simples e intuitiva.
 
-## Available Scripts
+## Funcionalidades para Convidados
 
-In the project directory, you can run:
+* **Página Principal:** Uma página de boas-vindas com informações sobre o evento (data, horário e local).
+* **Confirmação de Presença (RSVP):** Os convidados podem confirmar sua participação no evento através de um formulário de RSVP.
+* **Lista de Presentes:** Uma lista com sugestões de presentes para os convidados escolherem e reservarem. Isso ajuda a evitar presentes repetidos e garante que os noivos recebam o que realmente precisam.
 
-### `npm start`
+## Funcionalidades para o Administrador
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* **Página de Login:** Uma área restrita para o administrador, acessível por meio de login e senha.
+* **Visualização de Confirmações:** O administrador pode visualizar a lista de todos os convidados que confirmaram presença.
+* **Controle da Lista de Presentes:** O administrador tem acesso a um painel para ver quais presentes foram reservados e por quem, facilitando a gestão da lista.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tecnologias Utilizadas
 
-### `npm test`
+* **Frontend:** React
+* **Backend:** Java Script | Firebase (para o banco de dados e autenticação)
+* **Hospedagem:** Vercel
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Como Usar
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Este projeto foi construído como um Single-Page Application (SPA). Para testar a aplicação localmente, siga estes passos:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1.  Instale as dependências:
+    `npm install`
+2.  Inicie o servidor de desenvolvimento:
+    `npm start`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Para implantar a versão de produção, utilize o comando `npm run build` e siga as instruções da sua plataforma de hospedagem (Vercel ou Firebase).
